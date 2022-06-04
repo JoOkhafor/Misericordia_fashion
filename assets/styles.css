@@ -5,15 +5,35 @@
   border: 0;
 }
 
-/* font Recoleta Medium called */
+/* font Recoleta Bold called */
 
 @font-face {
-  font-family: "Recoleta";
-  src: url(fonts/Recoleta-Medium.eot), url(fonts/Recoleta-Medium.ttf),
-    url(fonts/Recoleta-Medium.woff), url(fonts/Recoleta-Medium.woff2);
+  font-family: "Recoleta Bold";
+  src: url(fonts/Recoleta-Bold.eot), url(fonts/Recoleta-Bold.ttf),
+    url(fonts/Recoleta-Bold.woff), url(fonts/Recoleta-Bold.woff2);
+}
+
+/* End font Recoleta Bold called */
+
+/* font Recoleta Regular called */
+
+@font-face {
+  font-family: "Recoleta Regular";
+  src: url(fonts/Recoleta-Regular.eot), url(fonts/Recoleta-Regular.ttf),
+    url(fonts/Recoleta-Regular.woff), url(fonts/Recoleta-Regular.woff2);
 }
 
 /* End font Recoleta Medium called */
+
+/* font Recoleta Medium called */
+
+@font-face {
+  font-family: "Recoleta Thin";
+  src: url(fonts/Recoleta-Thin.eot), url(fonts/Recoleta-Thin.ttf),
+    url(fonts/Recoleta-Thin.woff), url(fonts/Recoleta-Thin.woff2);
+}
+
+/* End font Recoleta Thin called */
 
 /* colors and variables */
 
@@ -29,14 +49,14 @@
   --product-bg: #cbb297;
   --secondary: #fa9d4f;
   --violet: #c3b4df;
-  --nuanced: #626262;
+  --nuanced: #424642;
   --white: #ffffff;
 }
 
 /* End colors and variables */
 
 body {
-  font-family: "Recoleta";
+  font-family: "Recoleta Regular";
 }
 
 a {
@@ -44,11 +64,12 @@ a {
   color: inherit;
 }
 
+
 /* Begin the first section of home page */
 
 .cover {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .first_section {
@@ -66,8 +87,9 @@ a {
 }
 
 #logo {
-  font-size: 35px;
-  font-weight: bold;
+  font-family: "Recoleta Bold";
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .burger_menu_icon {
@@ -82,18 +104,21 @@ a {
 .burger_line {
   display: block;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: var(--white);
 }
 
 .menu_right_el_container {
   display: flex;
+  height: 100%;
   align-items: center;
 }
 
 .lang_select_icons {
   display: flex;
   font-size: 14px;
+  position: relative;
+  right: 20px;
 }
 
 .fr_lang {
@@ -109,6 +134,172 @@ a {
   cursor: pointer;
 }
 
+.search__icon {
+  width: 25px;
+}
+
 /* End navigation bar design */
+
+/* Begin right section for user icons*/
+
+.user_section_left_bar {
+  position: absolute;
+  right: 20px;
+  justify-content: center;
+  margin-left: 0;
+  width: 25px;
+  height: 80%;
+}
+
+.user_content_el {
+  display: block;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.user_icons {
+  width: 100%;
+}
+
+.user_icons {
+  margin: 10px 0;
+}
+
+.icon_shift {
+  position: absolute;
+  left: 12px;
+  padding: 3px;
+  background-color: var(--red);
+  font-size: 10px;
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* End right section for user icons*/
+
+/* Begin Home center block section */
+
+.home_center_section{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.centerize{
+  margin: 0 auto;
+}
+
+.large_w{
+  width: 100%;
+}
+
+.medium_w{
+  width: 70%;
+}
+
+.categories_section{
+  margin-top: 40px;
+  color: var(--secondary);
+  text-align: center;
+  font-size: clamp(70px, 100px, 150px);
+  line-height: clamp(30px, 2em, 80px);
+  font-weight: 300px;
+}
+
+.category_img_section{
+  width: 32%;
+  max-width: 470px;
+  margin-top: -130px;
+}
+
+.category_img{
+  width: 100%;
+}
+
+.category_description{
+  font-family: "Recoleta Bold";
+  margin-top: -230px;
+  color: var(--white);
+  text-align: center;
+  font-size: calc(12px + 8vw);
+}
+
+.last_center_section{
+  margin-top: -20px;
+  display: block;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.anecdotes{
+  font-size:11px;
+  margin-left: 150px;
+}
+
+.anecdotes span{
+  margin-left: 30px;
+}
+
+.discover_btn{
+  width: 100px;
+  position: relative;
+  left: 85%;
+}
+
+.elipsis{
+  position: absolute;
+  top: -100%;
+  left: -25%;
+  width: 140%;
+}
+
+/* End  Home center block section */
+
+/* Begin Home Bottom section */
+
+.home_bottom__section{
+  font-family: "Recoleta Bold";
+  color: var(--white);
+  position: static;
+  margin: 132px 0 auto;
+  top: 120px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.bottom_left_section {
+  font-size: 14px;
+}
+
+.bottom_left_section span{
+  font-family: "Recoleta Thin";
+}
+
+.scroll_btn{
+  display: block;
+  position: relative;
+  top: -40px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.bottom_right_section{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+}
+
+/* Begin Home Bottom section */
 
 /* End Begin the first section of home page */
