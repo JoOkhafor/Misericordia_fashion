@@ -91,7 +91,7 @@ a {
   align-items: center;
 }
 
-.lang_slect_icons {
+.lang_select_icons {
   display: flex;
   font-size: 14px;
 }
@@ -102,6 +102,11 @@ a {
 
 .en_lang {
   text-decoration: underline;
+}
+
+.search_icon_container {
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 /* End navigation bar design */
