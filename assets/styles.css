@@ -48,9 +48,13 @@
   --nuance: #7b7b7b;
   --product-bg: #cbb297;
   --secondary: #fa9d4f;
+  --secondary-hard: #F47113;
   --violet: #c3b4df;
   --nuanced: #424642;
+  --nuanced-light: #A09B96;
   --white: #ffffff;
+  --orangered_100: #eee0d2;
+  --coffee: #654B4B;
 }
 
 /* End colors and variables */
@@ -74,7 +78,7 @@ a {
 
 .first_section {
   background-color: var(--nuanced);
-  padding: 20px;
+  padding: 30px 40px;
 }
 
 /* Begin navigation bar design */
@@ -145,7 +149,7 @@ a {
 
 .user_section_left_bar {
   position: absolute;
-  right: 20px;
+  right: 45px;
   margin-left: 0;
   display: block;
   align-items: center;
@@ -156,7 +160,7 @@ a {
 .user_content_el {
   display: block;
   position: absolute;
-  top: 45%;
+  top: 40%;
   width: 100%;
 }
 
@@ -186,6 +190,7 @@ a {
   height: 80%;
   display: flex;
   flex-direction: column;
+  margin-top: 70px;
 }
 
 .centerize{
@@ -201,7 +206,6 @@ a {
 }
 
 .categories_section{
-  margin-top: 40px;
   color: var(--secondary);
   text-align: center;
   font-size: clamp(70px, 100px, 150px);
@@ -293,6 +297,11 @@ a {
   justify-content: center;
 }
 
+img.arrow_down{
+  width: 26px;
+  margin-top: 10px;
+}
+
 .bottom_right_section{
   font-size: 14px;
   font-family: "Poppins", sans-serif;
@@ -302,3 +311,69 @@ a {
 /* End Home Bottom section */
 
 /* End of the first section of home page */
+
+
+/* Begin of the dannish section page */
+
+.danish__section{
+  width: 100vw;
+  padding: 150px 0;
+  background-color: var(--orangered_100);
+}
+
+.danish__section_container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  padding-right: 20px;
+}
+
+.danish_section_left{
+  margin-left: 0;
+  display: flex;
+}
+
+.left_image_container{
+  width: 350px;
+}
+
+.left_image {
+  width: 120%;
+}
+
+.danish_text{
+  position: relative;
+  left: -4%;
+  top: 1%;
+  font-family: "Recoleta Bold";
+}
+
+.great_title_text{
+  text-indent: 40px;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 13px;
+  color: var(--coffee);
+}
+
+.great_title_text span,
+.low_text{
+  position: relative;
+  left: 36%;
+}
+
+.low_text{
+  margin-top: 20px;
+  color: var(--nuanced-light);
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+}
+
+.low_text span{
+  font-family: "Recoleta Bold";
+  color: var(--secondary-hard);
+}
+
+
+/* End of the dannish section  page */
