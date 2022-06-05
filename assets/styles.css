@@ -68,7 +68,7 @@ a {
 /* Begin the first section of home page */
 
 .cover {
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -84,6 +84,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
@@ -145,8 +146,9 @@ a {
 .user_section_left_bar {
   position: absolute;
   right: 20px;
-  justify-content: center;
   margin-left: 0;
+  display: block;
+  align-items: center;
   width: 25px;
   height: 80%;
 }
@@ -154,15 +156,12 @@ a {
 .user_content_el {
   display: block;
   position: absolute;
-  top: 40%;
+  top: 45%;
   width: 100%;
 }
 
 .user_icons {
   width: 100%;
-}
-
-.user_icons {
   margin: 10px 0;
 }
 
@@ -265,7 +264,7 @@ a {
   font-family: "Recoleta Bold";
   color: var(--white);
   position: static;
-  margin: 132px 0 auto;
+  margin: 100px 0 auto;
   top: 120px;
   width: 100%;
   display: flex;
@@ -300,6 +299,6 @@ a {
   text-align: right;
 }
 
-/* Begin Home Bottom section */
+/* End Home Bottom section */
 
-/* End Begin the first section of home page */
+/* End of the first section of home page */
