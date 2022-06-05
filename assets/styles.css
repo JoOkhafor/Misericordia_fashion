@@ -186,26 +186,26 @@ a {
 
 /* Begin Home center block section */
 
-.home_center_section{
+.home_center_section {
   height: 80%;
   display: flex;
   flex-direction: column;
   margin-top: 70px;
 }
 
-.centerize{
+.centerize {
   margin: 0 auto;
 }
 
-.large_w{
+.large_w {
   width: 100%;
 }
 
-.medium_w{
+.medium_w {
   width: 70%;
 }
 
-.categories_section{
+.categories_section {
   color: var(--secondary);
   text-align: center;
   font-size: clamp(70px, 100px, 150px);
@@ -213,17 +213,17 @@ a {
   font-weight: 300px;
 }
 
-.category_img_section{
+.category_img_section {
   width: 32%;
   max-width: 470px;
   margin-top: -130px;
 }
 
-.category_img{
+.category_img {
   width: 100%;
 }
 
-.category_description{
+.category_description {
   font-family: "Recoleta Bold";
   margin-top: -230px;
   color: var(--white);
@@ -231,29 +231,29 @@ a {
   font-size: calc(12px + 8vw);
 }
 
-.last_center_section{
+.last_center_section {
   margin-top: -20px;
   display: block;
   color: var(--white);
   text-transform: uppercase;
 }
 
-.anecdotes{
-  font-size:11px;
+.anecdotes {
+  font-size: 11px;
   margin-left: 150px;
 }
 
-.anecdotes span{
+.anecdotes span {
   margin-left: 30px;
 }
 
-.discover_btn{
+.discover_btn {
   width: 100px;
   position: relative;
   left: 85%;
 }
 
-.elipsis{
+.elipsis {
   position: absolute;
   top: -100%;
   left: -25%;
@@ -264,7 +264,7 @@ a {
 
 /* Begin Home Bottom section */
 
-.home_bottom__section{
+.home_bottom__section {
   font-family: "Recoleta Bold";
   color: var(--white);
   position: static;
@@ -280,11 +280,11 @@ a {
   font-size: 14px;
 }
 
-.bottom_left_section span{
+.bottom_left_section span {
   font-family: "Recoleta Thin";
 }
 
-.scroll_btn{
+.scroll_btn {
   display: block;
   position: relative;
   top: -40px;
@@ -297,12 +297,12 @@ a {
   justify-content: center;
 }
 
-img.arrow_down{
+img.arrow_down {
   width: 26px;
   margin-top: 10px;
 }
 
-.bottom_right_section{
+.bottom_right_section {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   text-align: right;
@@ -315,13 +315,13 @@ img.arrow_down{
 
 /* Begin of the dannish section page */
 
-.danish__section{
+.danish__section {
   width: 100vw;
   padding: 150px 0;
   background-color: var(--orangered_100);
 }
 
-.danish__section_container{
+.danish__section_container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -329,51 +329,132 @@ img.arrow_down{
   padding-right: 20px;
 }
 
-.danish_section_left{
+.danish_section_left {
   margin-left: 0;
   display: flex;
 }
 
-.left_image_container{
-  width: 350px;
+.left_image_container {
+  width: 300px;
 }
 
 .left_image {
-  width: 120%;
+  width: 130%;
 }
 
-.danish_text{
+.danish_text {
   position: relative;
-  left: -4%;
-  top: 1%;
+  z-index: 6;
+  left: -8%;
+  top: 5%;
   font-family: "Recoleta Bold";
 }
 
-.great_title_text{
+.great_title_text {
   text-indent: 40px;
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 80px;
+  line-height: 80px;
   letter-spacing: 13px;
   color: var(--coffee);
 }
 
 .great_title_text span,
-.low_text{
+.low_text {
   position: relative;
   left: 36%;
 }
 
-.low_text{
+.low_text {
   margin-top: 20px;
   color: var(--nuanced-light);
   font-family: "poppins", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.low_text span{
+.low_text span {
   font-family: "Recoleta Bold";
   color: var(--secondary-hard);
 }
 
+.danish_center_img {
+  display: block;
+  position: absolute;
+  left: 48%;
+  width: fit-content;
+}
+
+.top_img_container,
+.bottom_img_container {
+  width: 173px;
+}
+
+.top_img,
+.bottom_img {
+  width: 100%;
+}
+
+.top_img_container {
+  position: relative;
+  top: -90px;
+  left: 20px;
+}
+
+.bottom_img_container {
+  position: relative;
+  top: 120px;
+  left: -160px;
+}
+
+.danish_right_img {
+  float: right;
+  display: flex;
+  width: fit-content;
+  position: relative;
+}
+
+.right_img_text{
+  font-family: "Recoleta Regular";
+  position: absolute;
+  z-index: 10;
+  bottom: 80px;
+  left: -20%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.right_img_one_container {
+  width: 264px;
+  position: absolute;
+  right: 0;
+}
+
+.right_img_two_container {
+  position: relative;
+  width: 172px;
+  z-index: 3;
+}
+
+.right_img_three_container {
+  position: relative;
+  width: 161px;
+  z-index: 6;
+}
+
+.img_one,
+.img_two,
+.img_three {
+  width: 100%;
+}
+
+.img_two{
+  position: absolute;
+  top: 90px;
+}
+
+.img_three{
+  position: absolute;
+  bottom: 20px;
+  left: -60px;
+}
 
 /* End of the dannish section  page */
