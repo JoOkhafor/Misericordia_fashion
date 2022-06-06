@@ -576,6 +576,11 @@ img.arrow_down {
   z-index: 1;
 }
 
+.item_img1{
+  width: 100%;
+  height: 100%;
+}
+
 .item_img_container {
   width: 100%;
 }
@@ -625,7 +630,7 @@ img.arrow_down {
 .trend_section_services {
   font-size: 15px;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(5, auto);
   margin-top: 80px;
 }
 
