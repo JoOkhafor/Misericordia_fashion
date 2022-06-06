@@ -483,13 +483,13 @@ img.arrow_down {
   line-height: 95px;
 }
 
-.trend_title p{
+.trend_title p {
   display: block;
   text-align: right;
   position: relative;
 }
 
-.trend_title p::before{
+.trend_title p::before {
   position: absolute;
   content: '';
   top: 50%;
@@ -499,7 +499,7 @@ img.arrow_down {
   background-color: var(--black);
 }
 
-.light_focus_title{
+.light_focus_title {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: var(--degraded);
@@ -509,7 +509,7 @@ img.arrow_down {
   right: 0%;
 }
 
-.article_type_container{
+.article_type_container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -521,13 +521,13 @@ img.arrow_down {
   margin: 40px 0 20px;
 }
 
-.article_type_container li{
+.article_type_container li {
   position: relative;
   list-style: none;
   padding: 0 15px;
 }
 
-.article_type_container li:not(:first-child):before{
+.article_type_container li:not(:first-child):before {
   content: "";
   position: absolute;
   width: 2px;
@@ -536,11 +536,11 @@ img.arrow_down {
   background-color: var(--black);
 }
 
-.type_selected{
+.type_selected {
   color: var(--secondary-hard);
 }
 
-.trend_article_container{
+.trend_article_container {
   display: grid;
   margin-top: 40px;
   justify-content: center;
@@ -548,52 +548,53 @@ img.arrow_down {
   grid-template-columns: repeat(4, 300px);
 }
 
-.item_img{
+.item_img {
   width: 100%;
 }
 
-.item{
+.item {
   padding: 20px;
   text-align: center;
   border: .5px solid var(--nuanced-light);
-  
+
 }
 
-.less{
+.less {
   width: 101%;
   display: block;
-  padding: auto 10px;
   position: relative;
+  border-right: 0;
+
 }
 
-.item_img_less{
+.item_img_less {
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 1;
 }
 
-.item_img_container{
+.item_img_container {
   width: 100%;
 }
 
-.item_description{
+.item_description {
   display: grid;
 }
 
-.article_title{
+.article_title {
   color: var(--degraded);
   font-size: 19px;
   margin: 10px 0 10px;
 }
 
-.price{
+.price {
   font-size: 13px;
   margin: 0px 0 10px;
   font-weight: bold;
 }
 
-.buy_btn{
+.buy_btn {
   position: relative;
   padding: 15px 20px;
   background-color: var(--black-600);
@@ -601,7 +602,7 @@ img.arrow_down {
   text-transform: uppercase;
 }
 
-.btn_less{
+.btn_less {
   left: 50%;
   transform: translate(-50%, 0);
   display: block;
@@ -612,21 +613,21 @@ img.arrow_down {
   z-index: 2;
 }
 
-.item_name{
+.item_name {
   color: var(--white);
   font-weight: bold;
   font-size: 21px;
   margin-bottom: 20px;
 }
 
-.trend_section_services{
+.trend_section_services {
   font-size: 15px;
   display: grid;
   grid-template-columns: repeat(6, auto);
   margin-top: 80px;
 }
 
-.trend_service{
+.trend_service {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -635,9 +636,9 @@ img.arrow_down {
   border: .5px solid var(--nuanced-light);
 }
 
-.trend_service img{
+.trend_service img {
   width: 20px;
-  height:  20px;
+  height: 20px;
 }
 
 /* End trend section  */
