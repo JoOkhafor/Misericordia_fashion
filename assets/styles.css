@@ -412,7 +412,7 @@ img.arrow_down {
   position: relative;
 }
 
-.right_img_text{
+.right_img_text {
   font-family: "Recoleta Regular";
   position: absolute;
   z-index: 10;
@@ -446,15 +446,21 @@ img.arrow_down {
   width: 100%;
 }
 
-.img_two{
+.img_two {
   position: absolute;
   top: 90px;
 }
 
-.img_three{
+.img_three {
   position: absolute;
   bottom: 20px;
   left: -60px;
 }
 
 /* End of the dannish section  page */
+
+/* Begin trend section  */
+
+
+
+/* End trend section  */
