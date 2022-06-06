@@ -5,6 +5,10 @@
   border: 0;
 }
 
+::selection{
+  background-color: var(--primary);
+}
+
 /* font Recoleta Bold called */
 
 @font-face {
@@ -38,7 +42,6 @@
 /* colors and variables */
 
 :root {
-  --text: "Recoleta";
   --primary: #5a4042;
   --black: #000000;
   --black-600: #222222;
@@ -65,11 +68,15 @@ body {
   font-family: "Recoleta Regular";
 }
 
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
+img{
+  user-select: none;
+}
 
 /* Begin the first section of home page */
 
