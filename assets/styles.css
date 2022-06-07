@@ -214,7 +214,9 @@ img{
   width: 70%;
 }
 
+
 .categories_section {
+  position: relative;
   color: var(--secondary);
   text-align: center;
   font-size: clamp(70px, 100px, 150px);
@@ -228,16 +230,22 @@ img{
   margin-top: -130px;
 }
 
+.homeAnim{
+  position: relative;
+}
+
 .category_img {
   width: 100%;
 }
 
 .category_description {
+  position: relative;
   font-family: "Recoleta Bold";
   margin-top: -230px;
   color: var(--white);
   text-align: center;
   font-size: calc(12px + 8vw);
+  z-index: 5;
 }
 
 .last_center_section {
@@ -341,6 +349,10 @@ img.arrow_down {
 .danish_section_left {
   margin-left: 0;
   display: flex;
+}
+
+.wow{
+  position: relative;
 }
 
 .left_image_container {
