@@ -819,10 +819,91 @@ img.arrow_down {
   color: #8B8A84;
 }
 
-.little_text_right a{
+.little_text_right a {
   text-decoration: underline;
   width: 100%;
   display: block;
 }
 
 /* End Selling Article section section */
+
+
+/* Begin natural skin show section  */
+
+.natskin_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 130px 0px 110px 30px;
+  background-color: #FFFCF8;
+}
+
+.natskin_left_sect {
+  width: 24%;
+  position: relative;
+}
+
+.left_top_img_container {
+  width: 80%;
+}
+
+.natskin_gtext {
+  position: absolute;
+  font-size: 64px;
+  width: 200%;
+  text-align: center;
+  z-index: 3;
+  left: 75%;
+  top: 7%;
+}
+
+.left_light_text {
+  position: relative;
+  width: 300px;
+  height: fit-content;
+  margin: 120px auto 120px 60%;
+}
+
+.xcircle {
+  width: 70px;
+  height: 70px;
+}
+
+.circle_text {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 45px;
+}
+
+.natskin_right_sect {
+  float: right;
+  width: 50%;
+}
+
+.natright_txt{
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin: 0px 50px 40px auto;
+  float: right;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.natskin_right_img_cont{
+  position: relative;
+  float: right;
+  margin-top: 90px;
+  width: 80%;
+}
+
+.rondtxt{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: 100px;
+}
+
+/* End natural skin show section  */
