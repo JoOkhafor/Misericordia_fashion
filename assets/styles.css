@@ -59,7 +59,7 @@
   --white: #ffffff;
   --orangered_100: #eee0d2;
   --coffee: #654B4B;
-  --skyblue: #c0c2dd;
+  --skyblue: #b883f1;
 }
 
 /* End colors and variables */
@@ -366,8 +366,8 @@ img.arrow_down {
 
 .danish_center_ltext{
   font-family: "Poppins", sans-serif;
-  margin-top: 40px;
-  font-size: 25px;
+  margin-top: 80px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -441,6 +441,7 @@ img.arrow_down {
   padding: 0 15px;
 }
 
+
 .article_type_container li:not(:first-child):before {
   content: "";
   position: absolute;
@@ -459,7 +460,7 @@ img.arrow_down {
   margin-top: 40px;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 25%);
 }
 
 .item_img {
@@ -670,7 +671,6 @@ img.arrow_down {
   display: grid;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  grid-template-columns: repeat(4, auto);
 }
 
 .selling_gtitle_container {
@@ -680,11 +680,26 @@ img.arrow_down {
   position: relative;
 }
 
+.first_row,
+.second_row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.first_row .item,
+.second_row .item{
+  min-width: 285px;
+}
+
 .selling_gtitle {
   display: block;
   position: relative;
-  left: 140px;
-  font-size: 80px;
+  left: 7vw;
+  font-size: 6vw;
   width: 75%;
   height: fit-content;
   letter-spacing: 1px;
@@ -700,7 +715,7 @@ img.arrow_down {
 .little_text_left {
   position: absolute;
   width: 200px;
-  left: 28%;
+  left: 20vw;
   bottom: 10%;
   color: #8B8A84;
 }
@@ -733,8 +748,9 @@ img.arrow_down {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  color: white;
   padding: 130px 0px 110px 30px;
-  background-color: #FFFCF8;
+  background: url(./natskin_back.png);
 }
 
 .natskin_left_sect {
