@@ -39,6 +39,24 @@
 
 /* End font Recoleta Thin called */
 
+/* full page global properties */
+
+body {
+  font-family: "Recoleta Regular";
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  user-select: none;
+}
+
+/* full page global properties */
+
 /* colors and variables */
 
 :root {
@@ -64,26 +82,7 @@
 
 /* End colors and variables */
 
-body {
-  font-family: "Recoleta Regular";
-}
-
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  user-select: none;
-}
-
 /* Begin the first section of home page */
-
-.cover {
-  width: 100%;
-  height: 100%;
-}
 
 .first_section {
   background: url(./home_back.png);
@@ -141,15 +140,13 @@ img {
   font-size: 14px;
   position: relative;
   right: 20px;
+  gap: 10px;
 }
 
 .fr_lang {
-  margin-right: 10px;
-}
-
-.en_lang {
   text-decoration: underline;
 }
+
 
 .bag_icon_container {
   position: relative;
@@ -160,7 +157,7 @@ img {
   height: 100%;
 }
 
-.connect_btn{
+.connect_btn {
   font-family: "Poppins", sans-serif;
   padding: 5px;
   margin: 0 40px;
@@ -171,7 +168,7 @@ img {
   cursor: pointer;
 }
 
-.shopping_number{
+.shopping_number {
   position: absolute;
   width: 19px;
   height: 19px;
@@ -200,7 +197,7 @@ img {
   margin: 0 auto;
 }
 
-.large_w {
+.w100 {
   width: 100%;
 }
 
@@ -223,10 +220,6 @@ img {
   position: relative;
   max-width: 470px;
   margin-top: -130px;
-}
-
-.category_img {
-  width: 100%;
 }
 
 .category_description {
@@ -322,29 +315,34 @@ img.arrow_down {
 
 /* End of the first section of home page */
 
+/********* Global section styles *********/
+
+.section{
+  width: 100vw;
+  padding: 140px 2vw;
+}
+
+.section_flex{
+  width: 100%;
+  display: flex;
+}
+
+/********* Global section styles *********/
 
 /* Begin of the dannish section page */
 
 .danish__section {
-  width: 100vw;
-  padding: 200px 2vw;
   background-color: var(--orangered_100);
 }
 
 .danish__section_container {
-  display: flex;
   justify-content: space-between;
-  width: 100%;
   height: fit-content;
   padding: 20px;
 }
 
-.danish_img{
-  width: 100%;
-}
-
 .danish_section_left,
-.danish_right_section{
+.danish_right_section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -353,18 +351,18 @@ img.arrow_down {
   width: 30%;
 }
 
-.danish_center_img{
+.danish_center_img {
   width: 40%;
 }
 
-.danish_center_gtext{
+.danish_center_gtext {
   font-family: "Recoleta Bold";
   font-size: 7vw;
   color: #453032;
   text-align: center;
 }
 
-.danish_center_ltext{
+.danish_center_ltext {
   font-family: "Poppins", sans-serif;
   margin-top: 80px;
   font-size: 20px;
@@ -376,10 +374,8 @@ img.arrow_down {
 
 /* Begin trend section  */
 
-
 .trend_section {
   display: block;
-  padding: 120px 90px;
 }
 
 .trend__title_container {
@@ -468,7 +464,7 @@ img.arrow_down {
 }
 
 .item {
-  padding: 20px;
+  padding: 17px;
   text-align: center;
   border: .5px solid var(--nuanced-light);
 }
@@ -568,13 +564,10 @@ img.arrow_down {
 
 /* End trend section  */
 
-
 /* Mood section section */
 
 .fashion_section_mood {
-  display: flex;
   justify-content: stretch;
-  width: 100%;
   gap: 2%;
   padding: 120px 30px 100px 30px;
   background-color: var(--skyblue);
@@ -589,9 +582,6 @@ img.arrow_down {
   width: 100%;
 }
 
-.mood_img {
-  width: 100%;
-}
 
 .left_mood_text {
   width: 50%;
@@ -657,13 +647,10 @@ img.arrow_down {
 
 /* End section section */
 
-
 /* Selling Article section section */
 
 .selling_section {
-  width: 100%;
   display: block;
-  padding: 120px 70px;
   background-color: #EAE9DE;
 }
 
@@ -681,7 +668,7 @@ img.arrow_down {
 }
 
 .first_row,
-.second_row{
+.second_row {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -691,7 +678,7 @@ img.arrow_down {
 }
 
 .first_row .item,
-.second_row .item{
+.second_row .item {
   min-width: 285px;
 }
 
@@ -744,12 +731,10 @@ img.arrow_down {
 /* Begin natural skin show section  */
 
 .natskin_section {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding-bottom: 90px;
   color: white;
-  padding: 130px 0px 110px 30px;
   background: url(./natskin_back.png);
 }
 
@@ -825,19 +810,13 @@ img.arrow_down {
 /* Second Selling Section section */
 
 .second_sellingsection {
-  width: 100%;
-  height: auto;
-  padding: 120px 100px;
-  background: url(./itemsec_back.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  padding: 100px 0;
 }
 
 .second_sell_head_content {
-  width: 100%;
+  padding: 90px 100px;
   margin-bottom: 100px;
-  color: var(--white);
+  color: #5b4749;
 }
 
 .second_head_gtitle {
@@ -851,7 +830,7 @@ img.arrow_down {
   width: 80px;
   height: 6px;
   margin: 0 20px 20px;
-  background-color: var(--white);
+  background-color: #5a4042;
 }
 
 .second_line {
@@ -876,7 +855,6 @@ img.arrow_down {
 .stitle_left_text {
   font-family: "Poppins", sans-serif;
   width: fit-content;
-  text-indent: 55px;
   line-height: 35px;
 }
 
@@ -889,20 +867,56 @@ img.arrow_down {
 .second_sel_item_container {
   display: grid;
   font-family: "Poppins", sans-serif;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(5, 20%);
+}
+
+.second_sel_item_container .item .item_description .article_title {
+  color: #5a4042;
 }
 
 .item_large1 {
-  grid-column: 3 / 5;
-  padding: 20px;
+  grid-column: 4 / 6;
+  grid-row: 1 / 3;
   border: .5px solid var(--nuanced-light);
   border-left: 0;
+  height: 100%;
+  overflow: hidden;
+  object-fit: fill;
 }
 
 .item_large2 {
   grid-column: 1 / 3;
-  padding: 20px;
+  grid-row: 3 / 5;
   border: .5px solid var(--nuanced-light);
+  height: 100%;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.item_large1 img,
+.item_large2 img {
+  height: 100%;
+}
+
+
+.discover_more {
+  width: 100%;
+  margin: 100px 0 40px;
+}
+
+.discover_more_btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 16px 20px;
+  width: fit-content;
+  color: white;
+  margin: 0 auto;
+  transition: all .2s;
+  background-color: #222222;
+}
+
+.discover_more_btn:hover {
+  background-color: #424642;
 }
 
 .s_color_white {
@@ -915,192 +929,16 @@ img.arrow_down {
 
 /* End Second Selling Section section */
 
-/* Begin Issue_thirty Section section */
-
-.issue_thirty_section {
-  display: flex;
-  padding: 100px 35px 50px 0;
-  justify-content: space-between;
-  background-color: #EEE0D2;
-  position: relative;
-}
-
-.issue_thirty_left_sec {
-  display: block;
-  padding: 40px 0;
-  width: fit-content;
-  height: fit-content;
-}
-
-.issue_left_img_container {
-  max-width: 430px;
-  position: relative;
-  height: fit-content;
-}
-
-.issue_img {
-  width: 100%;
-}
-
-.left_img_text {
-  font-family: 'Pathway Gothic One', sans-serif;
-  height: fit-content;
-  font-size: 34px;
-  text-transform: uppercase;
-  z-index: 2;
-  position: absolute;
-  bottom: 16%;
-  left: 8%;
-  display: block;
-  color: var(--secondary-hard);
-}
-
-.left_img_text2 {
-  font-family: 'Pathway Gothic One', sans-serif;
-  position: relative;
-  font-size: 30px;
-  top: 38px;
-  left: 40px;
-  bottom: -100%;
-  width: fit-content;
-  color: transparent;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
-  transform: rotate(90deg);
-  text-transform: uppercase;
-  z-index: 1;
-}
-
-.issue_thirty_center_sec {
-  max-width: 480px;
-  margin-top: 190px;
-  position: relative;
-  left: -30px;
-}
-
-.issue_thirty_gtitle {
-  font-size: 65px;
-  line-height: 72px;
-  width: 766px;
-  color: var(--secondary-hard);
-  margin-bottom: 40px;
-  position: relative;
-  z-index: 3;
-}
-
-.issue_thirty_center_btm_sec {
-  display: flex;
-  justify-content: space-between;
-}
-
-.center_bottom_text {
-  font-family: "Poppins", sans-serif;
-  color: var(--nuanced);
-  font-size: 13px;
-  max-width: 230px;
-}
-
-.center_bottom_img_container {
-  max-width: 225px;
-}
-
-.issue_thirty_right_sec {
-  width: 20%;
-  position: relative;
-}
-
-.right_top_sec {
-  display: flex;
-  width: 504px;
-  position: absolute;
-  right: 206px;
-}
-
-.right_top_sec_text {
-  width: 347px;
-  font-size: 28px;
-  line-height: 30px;
-  position: relative;
-  z-index: 1;
-}
-
-.right_top_sec_img_container {
-  position: absolute;
-  width: 140px;
-  right: 10%;
-  top: -40%;
-}
-
-.right_bottom_sec {
-  display: grid;
-  margin-top: 385px;
-  position: relative;
-}
-
-.right_bottom_sec_imgs {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.issue_simg1 {
-  width: 100px;
-  margin-right: 20px;
-}
-
-.issue_simg2 {
-  width: 160px;
-}
-
-.right_bottom_sec_text {
-  width: 145px;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  color: var(--nuanced);
-  font-size: 13px;
-}
-
-.issue_sec_socialslinks {
-  font-family: "Poppins", sans-serif;
-  position: absolute;
-  font-size: 12px;
-  text-transform: uppercase;
-  bottom: 20px;
-  right: 19px;
-}
-
-.issue_link {
-  padding: 0 16px;
-  position: relative;
-}
-
-.issue_link:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 14px;
-  background-color: black;
-}
-
-/* End Issue_thirty Section section */
-
 /* Begin Comments section */
 
 .s_comment_section {
   display: grid;
   justify-content: center;
-  width: 100%;
-  padding: 100px 120px;
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
   gap: 50px;
   background-color: #C8D8D1F9;
-}
-
-.comment_img {
-  width: 100%;
 }
 
 .comment_top_left_img_container {
@@ -1121,7 +959,7 @@ img.arrow_down {
   position: relative;
   z-index: 3;
   margin: 100px auto 30px;
-  max-width: 1015px;
+  max-width: 1215px;
   font-size: 63px;
   text-align: center;
 }
@@ -1130,9 +968,13 @@ img.arrow_down {
   position: absolute;
   display: block;
   width: fit-content;
-  top: 0;
+  top: -33%;
   left: 50%;
-  transform: translate(-50%, -4%);
+  transform: translate(-50%, 0%);
+}
+
+.comment_backg_container img {
+  width: 100%;
 }
 
 .commen_legend_conatainer {
@@ -1140,7 +982,7 @@ img.arrow_down {
   font-weight: bold;
   max-width: 447px;
   font-size: 15px;
-  margin: 0 auto;
+  margin: 40px auto 0;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1151,96 +993,19 @@ img.arrow_down {
 
 /* End Comments section */
 
-/* Begin Contact section */
-
-.contact_section {
-  width: 100%;
-  height: auto;
-  background: url(./contact_back.png);
-  background-size: cover;
-  background-position: center;
-  padding: 110px 200px 90px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact_left_sec {
-  display: block;
-}
-
-.contact_sec_title {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: var(--white);
-  letter-spacing: 2px;
-  margin-bottom: 15px;
-}
-
-.contact_par {
-  font-size: 47px;
-  color: var(--secondary-hard);
-  margin-top: 18px;
-}
-
-.address_contain {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  color: var(--white);
-  margin-top: 34px;
-}
-
-.contact_tel {
-  font-size: 42px;
-  font-family: "Recoleta Bold";
-  color: var(--secondary-hard);
-  margin: 10px 0 40px;
-}
-
-.contact_cmd_btn {
-  padding: 16px 80px;
-  background-color: black;
-  color: var(--white);
-  font-family: 'Poppins', sans-serif;
-}
-
-.contact_right_sec {
-  position: relative;
-  width: 340px;
-}
-
-.contact_img2 {
-  width: 100%;
-}
-
-.contact_img1 {
-  position: absolute;
-  top: -140px;
-  left: -90px;
-  width: 240px;
-}
-
-
-/* End Contact section */
-
 /* Begin Insta section */
 
 .insta_pic_section {
   display: grid;
-  grid-template-columns: repeat(5, auto);
-  padding: 100px 20px 50px;
-  row-gap: 10px;
+  grid-template-columns: repeat(5, 19%);
+  padding: 100px 0px 50px;
+  justify-content: center;
+  gap: 1%;
   background-color: #fafafa;
 }
 
 .insta_sec_img {
   width: fit-content;
-  max-width: 245px;
-  margin: 0 auto;
-}
-
-.insta_img {
-  width: 100%;
 }
 
 .insta_icon {
@@ -1254,7 +1019,7 @@ img.arrow_down {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 245px;
+  /* height: 245px; */
   background-color: white;
   border: 0.012px solid #eeeded;
 }
@@ -1275,97 +1040,6 @@ img.arrow_down {
 
 /* Begin Footer section */
 
-.footer_section{
-  font-family: 'Poppins', sans-serif;
-  color: rgba(255, 255, 255, 0.802);
-  display: block;
-  width: 100%;
-  background: url(./footer_beck.png);
-  background-size: cover;
-  background-position: center;
-}
 
-.top_footer_sec{
-  padding: 90px 120px 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 80px;
-}
-
-.navigation_links{
-  display: block;
-}
-
-.nav_title{
-  font-size: 36px;
-  font-weight: 900;
-  color: var(--secondary-hard);
-}
-
-.list{
-  margin-left: 15px;
-  margin-top: 30px;
-}
-
-.list_elm{
-  margin: 8px 0;
-}
-
-.logo_section{
-  display: grid;
-}
-
-.logo_container{
-  margin: 0 auto;
-  width: 150px;
-}
-
-.logo_img{
-  width: 100%;
-}
-
-.fakemail{
-  font-size: 28px;
-  font-weight: bolder;
-  margin: 0 auto;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: currentcolor;
-  text-decoration-thickness: 5px;
-  line-height: 59px;
-  color: var(--secondary-hard);
-}
-
-.about{
-  text-align: right;
-  display: block;
-}
-
-.about_title{
-  font-size: 36px;
-  font-weight: bolder;
-  color: var(--secondary-hard);
-}
-
-.about_address{
-  margin: 25px 0 35px;
-  font-size: 20px;
-}
-
-.about_tel{
-  display: grid;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-.copyr_section{
-  margin-top: 200px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  padding: 30px 20px;
-  background-color: #000000f9;
-}
 
 /* End Footer section */
