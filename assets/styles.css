@@ -98,11 +98,14 @@ img {
 /* Begin the first section of home page */
 
 .first_section {
+  background-attachment: fixed;
+  padding: 0px 40px 30px;
+}
+
+.homeindex_background{
   background: url(./home_back.png);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  padding: 30px 40px;
 }
 
 /* Begin navigation bar design */
@@ -114,6 +117,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 40px;
 }
 
 #logo {
