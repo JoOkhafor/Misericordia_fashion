@@ -133,14 +133,14 @@ img {
 }
 
 .orangered100_bgcolor {
-  background-color: #eee0d2;
+  background-color: #FEEBDA;
 }
 
 .coffee_bgcolor {
-  background-color: #654B4B;
+  background-color: #816060;
 }
 
-.coffee_bgcolor {
+.skyblue_bgcolor {
   background-color: #6f80ff;
 }
 
@@ -1523,3 +1523,135 @@ img.arrow_down {
 }
 
 /* End Footer section */
+
+
+/************************* Collection 1 element **************************/
+
+/* Clt 1 section */
+
+.c1_home {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 10% 0 30%;
+}
+
+.c1_gtitle {
+  width: 100%;
+  font-weight: 500;
+  font-size: 142px;
+  text-align: center;
+  color: #AE5C4A;
+  z-index: 6;
+}
+
+.c1text_section {
+  max-width: 400px;
+  text-align: center;
+  margin: 3% 0 0 14%;
+  z-index: 6;
+}
+
+.c1btn1_sec {
+  display: flex;
+  column-gap: 20%;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.c1dis_btn {
+  padding: 25px 70px;
+  border-radius: 50%;
+  border: 1px solid #AE5C4A;
+}
+
+.c1_imgs {
+  width: fit-content;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.c1_img2 {
+  right: -25%;
+  top: 50%;
+}
+
+.c1_img3 {
+  left: -25%;
+  top: 70%;
+}
+
+/* Clt 1 section */
+
+/* C1 explan text section */
+
+.c1_explansect {
+  padding: 170px 0;
+}
+
+.c1_explantitle {
+  font-size: 68px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  max-width: 700px;
+  color: #FFE6D7;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.c1_ex_tpar {
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.c1pimg_cont {
+  width: 70vw;
+  margin: 80px auto 0;
+}
+
+/* C1 explan text section */
+
+/*  C1 galerie section */
+
+.c1_gal_section {
+  padding: 170px 2vw 200px;
+}
+
+.c1_gal_headtext {
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto 150px;
+}
+
+.c1_banner_gtext {
+  font-family: 'Recoleta Thin';
+  font-size: 8vw;
+  line-height: 152px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5A4041;
+  text-align: center;
+}
+
+.c1_gal_imgs{
+  margin-top: -60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c1_gal_imgs > div{
+  width: 30%;
+}
+
+.c1_galimg2{
+  top: 160px;
+}
+
+/*  C1 galerie section */
+
+/************************* Collection 1 element **************************/
