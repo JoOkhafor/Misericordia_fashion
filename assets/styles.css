@@ -125,7 +125,7 @@ img {
 }
 
 .nuancedlight_bgcolor {
-  background-color: #A09B96;
+  background-color: #EAE9DE;
 }
 
 .white_bgcolor {
@@ -1637,21 +1637,71 @@ img.arrow_down {
   text-align: center;
 }
 
-.c1_gal_imgs{
+.c1_gal_imgs {
   margin-top: -60px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.c1_gal_imgs > div{
+.c1_gal_imgs>div {
   width: 30%;
 }
 
-.c1_galimg2{
+.c1_galimg2 {
   top: 160px;
 }
 
 /*  C1 galerie section */
+
+/* C1 summer section */
+
+.c1_summer {
+  padding: 90px 4vw;
+}
+
+.c1_summer_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c1summerltext {
+  display: flex;
+  gap: 50px;
+}
+
+.c1_textpar {
+  position: relative;
+}
+
+.c1_textpar::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  bottom: 0px;
+  font-size: 20px;
+}
+
+.c1sumbartext {
+  font-size: 13vw;
+  text-transform: uppercase;
+  width: max-content;
+  color: #D1C8AD;
+  overflow-x: scroll;
+  margin-left: -100px;
+  margin-top: 200px;
+}
+
+.c1sumbartext span{
+  display: inline-block;
+  width: 150px;
+  height: 4px;
+  background-color: #D1C8AD;
+  margin-bottom: 50px;
+}
+
+/* C1 summer section */
 
 /************************* Collection 1 element **************************/
