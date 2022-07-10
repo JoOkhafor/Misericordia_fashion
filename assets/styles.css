@@ -1352,6 +1352,7 @@ img.arrow_down {
   text-transform: uppercase;
   color: var(--secondary-hard);
   margin-top: 10px;
+  height: 100%;
 }
 
 /* End Insta section */
