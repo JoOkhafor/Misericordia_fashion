@@ -1924,7 +1924,8 @@ img.arrow_down {
 .dis_img{
   width: fit-content;
   left: 0%;
-  bottom: -15%;
+  bottom: 0%;
+  transform: translate(-50%, 60%);
 }
 
 /* End collection 2 gallerie */
