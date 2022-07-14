@@ -144,6 +144,10 @@ img {
   background-color: #c2c9ff;
 }
 
+.trans_bgcolor {
+  background-color: #c7c7c790;
+}
+
 .primary_color {
   color: #5a4042;
 }
@@ -297,6 +301,7 @@ img {
   display: flex;
   font-size: 14px;
   position: relative;
+  font-weight: bold;
   right: 20px;
   gap: 10px;
 }
@@ -357,7 +362,8 @@ img {
 .w100 {
   width: 100%;
 }
-.h100{
+
+.h100 {
   height: 100%;
 }
 
@@ -1900,11 +1906,11 @@ img.arrow_down {
 
 /* Start collection 2 gallerie */
 
-.gal_section{
+.gal_section {
   padding: 180px 0;
 }
 
-.gal_gtxt{
+.gal_gtxt {
   font-family: "Recoleta Thin";
   font-size: 11vw;
   letter-spacing: 10px;
@@ -1913,7 +1919,7 @@ img.arrow_down {
   margin-bottom: -7%;
 }
 
-.gal_imgs{
+.gal_imgs {
   gap: 20px;
   width: 90vw;
   margin-left: 8vw;
@@ -1921,7 +1927,7 @@ img.arrow_down {
   justify-content: space-evenly;
 }
 
-.dis_img{
+.dis_img {
   width: fit-content;
   left: 0%;
   bottom: 0%;
@@ -1965,3 +1971,85 @@ img.arrow_down {
 
 
 /************************* Collection 2 element *************************/
+/************************* Collection 3 element *************************/
+
+/* Colecction 3 header section */
+
+.col3section {
+  padding: 0 2vw 100px;
+}
+
+.col3h_section {
+  width: 80%;
+  padding: 30px 0 0px;
+  margin: 100px auto;
+}
+
+.col3leftimgs {
+  left: 0;
+  top: 0%;
+}
+
+.col3leftimg1 {
+  margin-bottom: 80px;
+}
+
+.col3leftimg2 {
+  width: 110%;
+  right: 0;
+  top: 0;
+  transform: translate(50%, 50%);
+  z-index: 2;
+}
+
+.col3leftimg3 {
+  width: 110%;
+  left: -20%;
+}
+
+.c3htext_section {
+  display: grid;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+  z-index: 6;
+}
+
+.c3h_gtxt {
+  font-size: 85px;
+  font-family: "Recoleta Bold";
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 50px auto;
+}
+
+.c3h_ltxt {
+  max-width: 423px;
+  margin-bottom: 100px;
+}
+
+.c3disbtn {
+  letter-spacing: 4px;
+  padding: 15px 50px;
+}
+
+.col3rightimgs {
+  width: 20%;
+  right: 0;
+  top: 0%;
+}
+
+.col3rimg1 {
+  width: 150%;
+  left: -70%;
+  z-index: 3;
+}
+
+.col3rimg2 {
+  bottom: -40%;
+  right: -20%;
+}
+
+/* Colecction 3 header section */
+
+/************************* Collection 3 element *************************/
