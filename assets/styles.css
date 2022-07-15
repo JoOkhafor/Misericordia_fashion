@@ -105,7 +105,7 @@ img {
 }
 
 .productbg_bgcolor {
-  background-color: #cbb297;
+  background-color: #ffebd6;
 }
 
 .secondary_bgcolor {
@@ -137,7 +137,7 @@ img {
 }
 
 .coffee_bgcolor {
-  background-color: #816060;
+  background-color: #AE5C4A;
 }
 
 .skyblue_bgcolor {
@@ -1914,9 +1914,10 @@ img.arrow_down {
   font-family: "Recoleta Thin";
   font-size: 11vw;
   letter-spacing: 10px;
-  width: 200vw;
+  width: 100vw;
   transform: translateX(-2%);
   margin-bottom: -7%;
+  overflow: hidden;
 }
 
 .gal_imgs {
@@ -2012,6 +2013,7 @@ img.arrow_down {
   justify-content: space-between;
   justify-items: center;
   text-align: center;
+  margin: 0px auto;
   z-index: 6;
 }
 
@@ -2019,8 +2021,9 @@ img.arrow_down {
   font-size: 85px;
   font-family: "Recoleta Bold";
   text-transform: uppercase;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   margin: 50px auto;
+width: 90%;
 }
 
 .c3h_ltxt {
@@ -2051,5 +2054,111 @@ img.arrow_down {
 }
 
 /* Colecction 3 header section */
+
+/* End Collection 3 header second section  */
+
+.slowemotion{
+  width: 80%;
+  margin: 170px auto 0;
+}
+
+.emot_gtitle{
+  font-size: 85px;
+  font-family: "Recoleta Bold";
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 50px auto;
+  line-height: 110%;
+  text-align: center;
+  z-index: 4;
+}
+
+.emot_text_sec{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emotleft_txt{
+  max-width: 250px;
+  z-index: 3;
+}
+
+.etxtparimg{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.emoimg{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+}
+
+.emo_bot_par{
+  max-width: 300px;
+  right: 5%;
+  transform: translateY(200%);
+}
+
+/* End Collection 3 header second section  */
+
+/* Start Collection 3 galerie section */
+
+.c3gal_sec{
+  gap: 2vw;
+  padding: 500px 0 90px 4vw;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.c3gal_leftsec{
+  width: 16%;
+}
+
+.c3gal_gtxt{
+  font-size: 90px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0px auto 70px;
+  line-height: 90%;
+  word-wrap: break-word;
+}
+
+.shoplink{
+  padding: 10px 20px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.c3gal_imgs{
+  align-items: center;
+  right: calc(-100px * 2);
+}
+
+.c3galim1{
+  width: 120%;
+  z-index: 2;
+}
+
+.c3galim2{
+  width: 60%;
+}
+
+.c3galim3{
+  width: 40%;
+}
+
+.c3galim4{
+  width: 23%;
+}
+
+.c3galim2,
+.c3galim3,
+.c3galim4{
+  left: -150px;
+}
+
+/* End Collection 3 galerie section */
 
 /************************* Collection 3 element *************************/
