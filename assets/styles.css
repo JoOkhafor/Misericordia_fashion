@@ -52,6 +52,18 @@ a {
   color: inherit;
 }
 
+.centerize {
+  margin: 0 auto;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
 img {
   user-select: none;
 }
@@ -72,12 +84,24 @@ img {
 
 /* colors and background colors*/
 
+.none_bgcolor {
+  background-color: #00000000;
+}
+
 .primary_bgcolor {
   background-color: #5a4042;
 }
 
+.background_lightred {
+  background-color: #AE5C4A;
+}
+
 .black_bgcolor {
   background-color: #000;
+}
+
+.background_darkgreen {
+  background-color: #3e513e;
 }
 
 .black-600_bgcolor {
@@ -144,8 +168,16 @@ img {
   background-color: #c2c9ff;
 }
 
+.skylightblue_bgcolor {
+  background-color: #a9d7e7;
+}
+
 .trans_bgcolor {
   background-color: #c7c7c790;
+}
+
+.color_white {
+  color: white;
 }
 
 .primary_color {
@@ -247,7 +279,7 @@ img {
 
 .first_section {
   width: 100%;
-  padding: 0px 40px 30px;
+  padding: 0px 2vw 30px;
 }
 
 .homeindex_background {
@@ -282,7 +314,9 @@ img {
   width: 50px;
   height: 18px;
   align-self: center;
-  justify-content: space-between;
+  cursor: pointer;
+  justify-content: center;
+  gap: 6px;
 }
 
 .burger_line {
@@ -353,18 +387,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
-}
-
-.centerize {
-  margin: 0 auto;
-}
-
-.w100 {
-  width: 100%;
-}
-
-.h100 {
-  height: 100%;
 }
 
 .categories_section {
@@ -488,9 +510,6 @@ img.arrow_down {
   display: flex;
 }
 
-.color_white {
-  color: white;
-}
 
 /********* Global section styles *********/
 
@@ -1100,10 +1119,6 @@ img.arrow_down {
   position: relative;
 }
 
-.background_darkgreen {
-  background-color: rgb(62, 81, 62);
-}
-
 .spring_ltext {
   position: absolute;
   top: 6%;
@@ -1181,8 +1196,7 @@ img.arrow_down {
   position: relative;
   padding-left: 0;
   padding-right: 0;
-  gap: 50px;
-  background-color: #C8D8D1F9;
+  gap: 90px;
 }
 
 .comment_top_left_img_container {
@@ -1203,26 +1217,20 @@ img.arrow_down {
   position: relative;
   z-index: 3;
   margin: 100px auto 30px;
-  max-width: 1215px;
-  font-size: 63px;
+  max-width: 1015px;
+  font-size: 53px;
   text-align: center;
 }
 
 .comment_backg_container {
   position: absolute;
   display: block;
-  width: fit-content;
-  top: -33%;
+  top: -43%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
 
-.comment_backg_container img {
-  width: 100%;
-}
-
 .commen_legend_conatainer {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   max-width: 447px;
   font-size: 15px;
@@ -1240,14 +1248,9 @@ img.arrow_down {
 /* Start comment Section */
 
 .contact_section {
-  color: white;
   gap: 5vw;
   justify-content: space-between;
   margin: 0 auto 90px;
-}
-
-.background_lightred {
-  background-color: #AE5C4A;
 }
 
 .contact_left_imgs {
@@ -1757,7 +1760,7 @@ img.arrow_down {
   display: flex;
   width: 100%;
   gap: 3%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .a_container {
@@ -1972,6 +1975,8 @@ img.arrow_down {
 
 
 /************************* Collection 2 element *************************/
+
+
 /************************* Collection 3 element *************************/
 
 /* Colecction 3 header section */
@@ -1981,6 +1986,7 @@ img.arrow_down {
 }
 
 .col3h_section {
+  display: grid;
   width: 80%;
   padding: 30px 0 0px;
   margin: 100px auto;
@@ -2023,7 +2029,8 @@ img.arrow_down {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin: 50px auto;
-width: 90%;
+width: fit-content;
+text-align: center;
 }
 
 .c3h_ltxt {
@@ -2162,3 +2169,183 @@ width: 90%;
 /* End Collection 3 galerie section */
 
 /************************* Collection 3 element *************************/
+
+
+/************************* Start about  section *************************/
+
+/* about section header */
+
+.about{
+  padding: 0 2vw;
+}
+
+.about_head{
+  padding: 80px 6vw 0;
+}
+
+.ah_circle{
+  z-index: 5;
+}
+
+.abouthead_ltxt{
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.abouthead_gtxt{
+  font-family: "Recoleta Bold";
+  font-size: 100px;
+  max-width: 700px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 40px;
+  line-height: 105%;
+  z-index: 4;
+}
+
+.abouthead_bottom{
+  margin-top: -100px;
+  gap: 7vw;
+}
+
+.ah_left_txt{
+  text-align: right;
+  margin-top: 20%;
+}
+
+.ah_left_txt,
+.ah_right_txt{
+  width: 20%;
+  letter-spacing: 2px;
+}
+
+.ah_center_img{
+  width: 40%;
+}
+
+.ahimg{
+  z-index: 2;
+}
+
+.ahimgback{
+  bottom: 0;
+  right: -12%;
+}
+
+.ah_right_txt{
+  align-self: flex-end;
+  margin-bottom: 5%;
+}
+
+.ahsocial_link{
+  margin-top: 20px;
+  font-family: "Recoleta Bold";
+  justify-content: space-between;
+}
+
+/* End about section header */
+
+/* About First text */
+
+.about_first_text{
+  padding-top: 80px;
+  padding-bottom: 600px;
+  z-index: 3;
+}
+
+.about_textpar{
+  font-size: 50px;
+  max-width: 700px;
+  text-align: center;
+}
+
+/* About First text */
+
+/* About second section */
+
+.about_sec_text{
+  padding: 250px 0 200px;
+}
+
+.ab_sec_imgs{
+  top: 0;
+  left: 50%;
+  transform: translate(-60% ,-70%);
+  max-width: 500px;
+  z-index: 5;
+}
+
+.abimg1{
+  transform: rotate(10deg) translate(25%,-10%);
+}
+
+.abimg2{
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.about_par{
+  text-align: center;
+  font-size: 20px;
+  max-width: 500px;
+  letter-spacing: 2px;
+}
+
+.absec_ab{
+  margin-top: 150px;
+  letter-spacing: 2px;
+  justify-content: space-between;
+}
+
+.absec_left_el{
+  gap: 5%;
+  display: grid;
+  align-content: center;
+  width: 45%;
+  padding-inline: 50px;
+}
+
+.ableft_title{
+  font-size: 60px;
+}
+
+.ableft_txt{
+  max-width: 400px;
+}
+
+.absec_second_el{
+  padding-inline: 40px;
+  padding-block: 100px;
+}
+
+.absecleftimg2{
+  width: 70%;
+  top: 60%;
+  left: 60%;
+}
+
+/* About second section */
+
+
+/* About comment section */
+
+.ab_comment{
+  flex-direction: column;
+  background: url(./abcoment.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.abmartop{
+  margin-top: 150px;
+}
+
+.abcomtxt{
+  margin-top: 20px;
+}
+
+/* About comment section */
+
+/************************* End about  section *************************/
